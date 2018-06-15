@@ -1,0 +1,9 @@
+extends base
+
+block body
+  .header
+    include ../include/header
+  .main(class!=main.class.join(' '))
+    block main
+  .footer
+    include ../include/footer

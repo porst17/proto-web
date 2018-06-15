@@ -1,0 +1,13 @@
+$color-black-real: #000;
+$color-white-real: #fff;
+
+$color-black: #333;
+$color-white: $color-white-real;
+
+$color-aqua: #5fc8c8;
+
+$color-link: $color-aqua;
+
+@mixin neg {
+  -webkit-font-smoothing: antialiased;
+}

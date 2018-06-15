@@ -1,0 +1,26 @@
+$base-font-size: 16px;
+$base-line-height: 1.5;
+
+@mixin textXL {
+  @include ubuntu;
+  font-size: 32px;
+  line-height: 1.31;
+}
+
+@mixin textL {
+  @include ubuntu;
+  font-size: 21px;
+  line-height: 1.45;
+}
+
+@mixin textM {
+  @include ubuntu;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+@mixin textS {
+  @include ubuntu;
+  font-size: 14px;
+  line-height: $base-font-size;
+}
